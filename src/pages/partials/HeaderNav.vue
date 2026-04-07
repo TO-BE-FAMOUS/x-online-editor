@@ -12,38 +12,6 @@
       <nav class="button-group">
         <a
           v-if="!isMobile"
-          href="https://wechat.jeffjade.com/"
-          class="header-link"
-          target="_blank"
-          rel="noopener"
-        >
-          <span class="hint--bottom" aria-label="公众号 Markdown 排版">
-            <icon class="header-icon" name="wechat" />
-          </span>
-        </a>
-        <a href="https://www.niceshare.site/" class="header-link" target="_blank" rel="noopener">
-          <span class="hint--bottom" aria-label="逍遥自在轩">
-            <icon class="header-icon" name="homepage" />
-          </span>
-        </a>
-        <a href="https://www.lovejade.cn/" class="header-link" target="_blank" rel="noopener">
-          <span class="hint--bottom" aria-label="清风明月轩">
-            <icon class="header-icon" name="home" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
-          href="https://x.com/MarshalXuan"
-          class="header-link"
-          target="_blank"
-          rel="noopener"
-        >
-          <span class="hint--bottom" aria-label="X - 轩帅">
-            <icon class="header-icon" name="x" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
           href="https://github.com/nicejade"
           class="header-link"
           target="_blank"
@@ -53,11 +21,6 @@
             <icon class="header-icon" name="github" />
           </span>
         </a>
-        <router-link to="/about-arya" class="header-link">
-          <span class="hint--bottom" aria-label="关于 Arya">
-            <icon class="header-icon" name="document" />
-          </span>
-        </router-link>
         <span class="hint--bottom" @click="onImportClick" aria-label="导入文件">
           <icon class="header-icon" name="upload" />
         </span>
